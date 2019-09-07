@@ -19,7 +19,7 @@
  *------------------------------------------------------------------*/
 #define BUTTONS_NUMBER 2
 #define BUTTON_1              _PINNUM(0, 2)
-#define BUTTON_2              _PINNUM(0, 29)
+#define BUTTON_2              _PINNUM(1, 3)  // P1.3 not exposed anywhere, FRST n/a
 #define BUTTON_PULL    NRF_GPIO_PIN_PULLUP
 
 /*------------------------------------------------------------------*/
